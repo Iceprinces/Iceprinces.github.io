@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'sleek';
+    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+}
+
+#page-header #site_title {
+    color: #80bdab;
+}
+
+.footer_custom_text {
+    color: #00c4b6;
+}
+
+#footer-wrap a {
+    color: #00c4b6;
+}
+
+.footer_custom_text {
+    color: #00c4b6;
+}
+
+a {
+    color: #00c4b6;
+}
+
+#nav a {
+    color: #f9f2f4;
+}
+
+@media screen and (max-width: 800px) {
+    #aside_content div:not(:last-child) {
+        display: none;
+        font-size: 13px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e58a8a;
+    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #e58a8a;
+}
